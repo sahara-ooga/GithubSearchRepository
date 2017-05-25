@@ -11,7 +11,11 @@ import Foundation
 protocol GitHubRequest {
     var baseURL:URL { get }
     var path:String { get }
-    var method:HTTPMethod { get } 
+    var method:HTTPMethod { get }
+    
+    //パラメータが必須でないAPIがあるのでオプショナル型
+    var parameters:Any? { get }
+    
 }
 
 extension GitHubRequest{
