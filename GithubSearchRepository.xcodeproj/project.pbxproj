@@ -12,6 +12,7 @@
 		1F4B8D941ED6AF8A00ED0A93 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D931ED6AF8A00ED0A93 /* Repository.swift */; };
 		1F4B8D961ED6B21600ED0A93 /* JSONDecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D951ED6B21600ED0A93 /* JSONDecodeError.swift */; };
 		1F4B8D981ED6B41300ED0A93 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D971ED6B41300ED0A93 /* JSONDecodable.swift */; };
+		1F4B8D9A1ED6BA5300ED0A93 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D991ED6BA5300ED0A93 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		1F4B8D931ED6AF8A00ED0A93 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		1F4B8D951ED6B21600ED0A93 /* JSONDecodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodeError.swift; sourceTree = "<group>"; };
 		1F4B8D971ED6B41300ED0A93 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		1F4B8D991ED6BA5300ED0A93 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				1F4B8D971ED6B41300ED0A93 /* JSONDecodable.swift */,
 				1F4B8D931ED6AF8A00ED0A93 /* Repository.swift */,
 				1F4B8D951ED6B21600ED0A93 /* JSONDecodeError.swift */,
+				1F4B8D991ED6BA5300ED0A93 /* SearchResponse.swift */,
 			);
 			name = Response;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				1F4B8D961ED6B21600ED0A93 /* JSONDecodeError.swift in Sources */,
 				1F4B8D981ED6B41300ED0A93 /* JSONDecodable.swift in Sources */,
+				1F4B8D9A1ED6BA5300ED0A93 /* SearchResponse.swift in Sources */,
 				1F4B8D921ED6AF4000ED0A93 /* User.swift in Sources */,
 				1F4B8D881ED6ADFA00ED0A93 /* main.swift in Sources */,
 				1F4B8D941ED6AF8A00ED0A93 /* Repository.swift in Sources */,
