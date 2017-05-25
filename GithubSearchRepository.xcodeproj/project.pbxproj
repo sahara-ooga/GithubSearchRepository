@@ -88,7 +88,6 @@
 				1F4B8D911ED6AF4000ED0A93 /* User.swift */,
 				1F4B8D971ED6B41300ED0A93 /* JSONDecodable.swift */,
 				1F4B8D931ED6AF8A00ED0A93 /* Repository.swift */,
-				1F4B8D951ED6B21600ED0A93 /* JSONDecodeError.swift */,
 				1F4B8D991ED6BA5300ED0A93 /* SearchResponse.swift */,
 			);
 			name = Response;
@@ -97,6 +96,7 @@
 		1F4B8D901ED6AEEE00ED0A93 /* Error */ = {
 			isa = PBXGroup;
 			children = (
+				1F4B8D951ED6B21600ED0A93 /* JSONDecodeError.swift */,
 			);
 			name = Error;
 			sourceTree = "<group>";
