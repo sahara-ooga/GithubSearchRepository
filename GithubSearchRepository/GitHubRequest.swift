@@ -47,4 +47,19 @@ extension GitHubRequest{
         
         return urlRequest
     }
+    
+    func response(from data:Data,
+                  urlResponse:URLResponse) throws -> Response {
+        //取得したデータをJSONに変換
+        let json = try JSONSerialization.jsonObject(with: data,
+                                                    options: [])
+        
+        if case (200..<300)? = (urlResponse as? HTTPURLResponse)?.statusCode {
+            //JSONからモデルをインスタンス化
+            return try Response(json: json)
+        } else {
+            //JSONからAPIエラーをインスタンス化
+            throw try GitHubAPIError(json: json)
+        }
+    }
 }
