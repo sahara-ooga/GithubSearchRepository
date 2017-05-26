@@ -17,6 +17,7 @@
 		1F4B8D9E1ED6C88A00ED0A93 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D9D1ED6C88A00ED0A93 /* GitHubAPIError.swift */; };
 		1F4B8DA01ED6CEB600ED0A93 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8D9F1ED6CEB600ED0A93 /* GitHubRequest.swift */; };
 		1F4B8DA21ED6CFA900ED0A93 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B8DA11ED6CFA900ED0A93 /* HTTPMethod.swift */; };
+		1FF37C3C1ED7BCF40029DA9D /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF37C3B1ED7BCF40029DA9D /* GitHubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		1F4B8D9D1ED6C88A00ED0A93 /* GitHubAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		1F4B8D9F1ED6CEB600ED0A93 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		1F4B8DA11ED6CFA900ED0A93 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		1FF37C3B1ED7BCF40029DA9D /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				1F4B8D9F1ED6CEB600ED0A93 /* GitHubRequest.swift */,
 				1F4B8DA11ED6CFA900ED0A93 /* HTTPMethod.swift */,
+				1FF37C3B1ED7BCF40029DA9D /* GitHubAPI.swift */,
 			);
 			name = Request;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				1F4B8D9E1ED6C88A00ED0A93 /* GitHubAPIError.swift in Sources */,
 				1F4B8DA01ED6CEB600ED0A93 /* GitHubRequest.swift in Sources */,
 				1F4B8DA21ED6CFA900ED0A93 /* HTTPMethod.swift in Sources */,
+				1FF37C3C1ED7BCF40029DA9D /* GitHubAPI.swift in Sources */,
 				1F4B8D941ED6AF8A00ED0A93 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +319,7 @@
 				1F4B8D8D1ED6ADFA00ED0A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
