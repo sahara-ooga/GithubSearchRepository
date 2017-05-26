@@ -7,7 +7,7 @@
 //
 
 enum GitHubClientError:Error {
-    case connetionError(Error)
+    case connectionError(Error)
     case responseParseError(Error)
     case apiError(GitHubAPIError)
 }
