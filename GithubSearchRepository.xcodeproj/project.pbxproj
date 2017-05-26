@@ -45,6 +45,7 @@
 		1F4B8D9F1ED6CEB600ED0A93 /* GitHubRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		1F4B8DA11ED6CFA900ED0A93 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		1FF37C3B1ED7BCF40029DA9D /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		1FF37C3D1ED7C36B0029DA9D /* 第１４章実践的なSwiftアプリケーション.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "第１４章実践的なSwiftアプリケーション.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		1F4B8D7B1ED6ADF900ED0A93 = {
 			isa = PBXGroup;
 			children = (
+				1FF37C3D1ED7C36B0029DA9D /* 第１４章実践的なSwiftアプリケーション.playground */,
 				1F4B8D861ED6ADFA00ED0A93 /* GithubSearchRepository */,
 				1F4B8D851ED6ADFA00ED0A93 /* Products */,
 			);
